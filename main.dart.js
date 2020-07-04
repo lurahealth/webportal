@@ -53856,7 +53856,7 @@ s=F.ba(a,!1).a
 r=u.p
 return M.oQ(q,q,M.ac(q,T.dO(H.a([M.ac(q,T.bI(H.a([T.Rp(T.bI(H.a([new T.aC(C.mr,M.ac(q,T.bI(H.a([new T.aC(C.X,L.b_("Dentist Name",q,q,q,C.F6,q,q),q),new T.aC(C.X,L.b_("Clinic Name",q,q,q,C.DT,q,q),q)],r),C.bY,C.aq,C.x),q,q,q,q,q,q,q,q,q,q),q),new Z.Bq(2,C.i,q)],r),C.bY,C.D,C.x)),new T.aC(C.mr,U.a8b("assets/splash_screen.png"),q)],r),C.bY,C.D,C.x),C.a3,q,q,q,t.b,q,q,q,q,s.a*0.25)],r),C.y,C.D,C.x),q,q,q,q,q,q,q,q,q,q),q)}}
 O.Dv.prototype={
-O:function(a){var t,s,r=null,q=Y.oD(a,u.w9),p=V.Na("Enter patinet fullname","Patient name",C.li,q.gZb(),q.d,"Need a name to create a new patient!",C.z4,!1,r),o=V.Na("Enter patients email address","Patient email",C.uW,q.gZa(),q.e,"Please enter a valid email address",C.r8,!1,r),n=V.Na("Enter patient id(optional)","Patient id",C.li,q.gZc(),!0,"",C.z1,!1,r),m=L.b_(q.z,r,r,r,C.iF,r,r),l=new P.ag(8,8),k=q.ga3c(),j=L.b_("Register patient",r,r,r,C.DS,r,r),i=u.p,h=T.bI(H.a([L.cF(C.z2,C.t8,F.ba(a,!1).a.b*0.15),new T.aC(C.X,L.b_("Patient created",r,r,r,C.ET.wO(F.ba(a,!1).a.b*0.02),r,r),r)],i),C.y,C.aq,C.x),g=new P.ag(8,8),f=!q.r&&!q.x
+O:function(a){var t,s,r=null,q=Y.oD(a,u.w9),p=V.Na("Enter patient full name","Patient name",C.li,q.gZb(),q.d,"Need a name to create a new patient!",C.z4,!1,r),o=V.Na("Enter patients email address","Patient email",C.uW,q.gZa(),q.e,"Please enter a valid email address",C.r8,!1,r),n=V.Na("Enter patient id (optional)","Patient id",C.li,q.gZc(),!0,"",C.z1,!1,r),m=L.b_(q.z,r,r,r,C.iF,r,r),l=new P.ag(8,8),k=q.ga3c(),j=L.b_("Register patient",r,r,r,C.DS,r,r),i=u.p,h=T.bI(H.a([L.cF(C.z2,C.t8,F.ba(a,!1).a.b*0.15),new T.aC(C.X,L.b_("Patient created",r,r,r,C.ET.wO(F.ba(a,!1).a.b*0.02),r,r),r)],i),C.y,C.aq,C.x),g=new P.ag(8,8),f=!q.r&&!q.x
 f=L.dm(new T.ck(C.I,r,r,L.b_("Register new patient",r,r,r,C.oJ,r,r),r),f)
 t=F.ba(a,!1).a
 s=!q.r&&!q.x
@@ -53991,7 +53991,7 @@ break
 case 5:q=4
 i=p
 l=H.O(i)
-j=C.b.E("passowrd_rest_dailed ",J.aO(l))
+j=C.b.E("password_reset_failed ",J.aO(l))
 r=j
 t=1
 break
@@ -54113,14 +54113,14 @@ $0:function(){var t=this.b.fN(u.R)
 return t.J1("/graphScreen",this.a.c,u.K)},
 $S:200}
 T.D0.prototype={
-O:function(a){var t,s,r,q=null,p=L.b_("Log In",q,q,q,A.am(q,q,C.a3,q,q,q,q,q,q,q,q,30,q,C.am,q,q,!0,q,q,q,q,q,q),q,q),o=this.c,n=V.Na("Enter your email address","Email",C.uW,o.gZ8(),o.e,"Please enter a valid email address!",C.r8,!1,q),m=V.Na("Enter your password","Password",C.li,o.gZ9(),o.f,"Please enter your password to login!",C.r7,!o.y,B.ij(q,o.Q,o.gzm(),q)),l=o.ch,k=L.dm(L.b_(o.cx,q,q,q,C.iF,q,q),l)
+O:function(a){var t,s,r,q=null,p=L.b_("Log In",q,q,q,A.am(q,q,C.a3,q,q,q,q,q,q,q,q,30,q,C.am,q,q,!0,q,q,q,q,q,q),q,q),o=this.c,n=V.Na("Enter your email address","Email",C.uW,o.gZ8(),o.e,"Please enter a valid email address",C.r8,!1,q),m=V.Na("Enter your password","Password",C.li,o.gZ9(),o.f,"Please enter your password to login",C.r7,!o.y,B.ij(q,o.Q,o.gzm(),q)),l=o.ch,k=L.dm(L.b_(o.cx,q,q,q,C.iF,q,q),l)
 l=new P.ag(8,8)
 t=F.ba(a,!1).a
 s=u.p
 r=M.is(C.P,!0,new K.bn(l,l,l,l),B.UA(q,!1,T.dO(H.a([L.cF(C.r6,C.i,q),new T.bE(10,q,q,q),L.b_("Log in now",q,q,q,A.am(q,q,C.i,q,q,q,q,q,q,q,q,q,q,q,q,q,!0,q,q,q,q,q,q),C.bU,q)],s),C.y,C.aq,C.x),C.Z,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,t.a,q,q,new T.Uq(this,a),new V.a8(20,15,20,15),q,q,q,q,q),C.Z,C.a3,5,q,C.m,q,q,C.bm)
 t=F.ba(a,!1).a
 l=o.z
-return new T.ck(C.I,q,q,M.ac(q,M.oQ(q,C.i,T.d3(C.af,H.a([L.dm(T.bI(H.a([p,new T.bE(q,25,q,q),new T.aC(C.hg,n,q),new T.aC(C.hg,m,q),new T.bE(q,50,q,q),new T.aC(C.X,k,q),new T.aC(C.hg,r,q)],s),C.y,C.aq,C.x),!l),L.dm(new A.k1("Loggin you in!",C.a3,q),o.z)],s),C.ae),q),q,q,q,q,q,q,q,q,q,t.a*0.3),q)}}
+return new T.ck(C.I,q,q,M.ac(q,M.oQ(q,C.i,T.d3(C.af,H.a([L.dm(T.bI(H.a([p,new T.bE(q,25,q,q),new T.aC(C.hg,n,q),new T.aC(C.hg,m,q),new T.bE(q,50,q,q),new T.aC(C.X,k,q),new T.aC(C.hg,r,q)],s),C.y,C.aq,C.x),!l),L.dm(new A.k1("Logging in",C.a3,q),o.z)],s),C.ae),q),q,q,q,q,q,q,q,q,q,t.a*0.3),q)}}
 T.Uq.prototype={
 $0:function(){return this.a.c.y8(this.b)},
 $S:34}
@@ -54130,20 +54130,20 @@ K.VG.prototype={
 $1:function(a){return new O.ox(L.cF(C.jm,null,null),new R.a4(H.a([],u.u),u.A))}}
 K.E6.prototype={
 O:function(a){var t,s,r,q=null,p=Y.oD(a,u.Ea),o=L.b_("Password Reset",q,q,q,A.am(q,q,C.a3,q,q,q,q,q,q,q,q,30,q,C.am,q,q,!0,q,q,q,q,q,q),q,q),n=L.b_("Your password has expired and needs to be reset",q,q,q,A.am(q,q,C.a3,q,q,q,q,q,q,q,q,20,q,q,q,q,!0,q,q,q,q,q,q),q,q),m=p.x,l=p.ga21(),k=L.cF(C.r7,q,q),j=p.gzm()
-l=Z.ZV(L.Cv(q,q,q,q,q,q,q,!0,q,q,q,q,q,q,q,C.d6,q,q,q,!0,q,q,q,q,q,"Please enter a new password!",q,q,q,q,"New Password",q,k,q,q,q,q,q,B.ij(q,p.y,j,q),q,q,q),!m,l)
+l=Z.ZV(L.Cv(q,q,q,q,q,q,q,!0,q,q,q,q,q,q,q,C.d6,q,q,q,!0,q,q,q,q,q,"Please enter a new password",q,q,q,q,"New Password",q,k,q,q,q,q,q,B.ij(q,p.y,j,q),q,q,q),!m,l)
 m=p.d
 k=u.p
-t=T.bI(H.a([l,L.dm(new T.aC(C.mq,T.dO(H.a([L.cF(C.mx,C.kr,q),new T.bE(10,q,q,q),L.b_("Password need to container atleast \n 1 upper case charecter \n 1 lower case charecter \n 1 number \n 1 special charecter (@$!%*-?&^~)",q,q,q,C.iF,q,q)],k),C.y,C.D,C.x),q),!m)],k),C.y,C.D,C.x)
+t=T.bI(H.a([l,L.dm(new T.aC(C.mq,T.dO(H.a([L.cF(C.mx,C.kr,q),new T.bE(10,q,q,q),L.b_("Password needs to contain at least \n 1 upper case character \n 1 lower case character \n 1 number \n 1 special character (@$!%*-?&^~)",q,q,q,C.iF,q,q)],k),C.y,C.D,C.x),q),!m)],k),C.y,C.D,C.x)
 m=p.x
 l=p.gZF()
 l=Z.ZV(L.Cv(q,q,q,q,q,q,q,!0,q,q,q,q,q,q,q,C.d6,q,q,q,!0,q,q,q,q,q,"Re-Enter your password",q,q,q,q,"Confirm Password",q,L.cF(C.z3,q,q),q,q,q,q,q,B.ij(q,p.y,j,q),q,q,q),!m,l)
 m=p.c
-s=T.bI(H.a([l,L.dm(new T.aC(C.mq,T.dO(H.a([L.cF(C.mx,C.kr,q),new T.bE(10,q,q,q),L.b_("Passwords do not match!",q,q,q,C.iF,q,q)],k),C.y,C.D,C.x),q),!m)],k),C.y,C.D,C.x)
+s=T.bI(H.a([l,L.dm(new T.aC(C.mq,T.dO(H.a([L.cF(C.mx,C.kr,q),new T.bE(10,q,q,q),L.b_("Passwords do not match",q,q,q,C.iF,q,q)],k),C.y,C.D,C.x),q),!m)],k),C.y,C.D,C.x)
 m=new P.ag(8,8)
 l=F.ba(a,!1).a
 r=M.is(C.P,!0,new K.bn(m,m,m,m),B.UA(q,!1,T.dO(H.a([L.cF(C.r6,C.i,q),new T.bE(10,q,q,q),L.b_("Reset Password",q,q,q,A.am(q,q,C.i,q,q,q,q,q,q,q,q,q,q,q,q,q,!0,q,q,q,q,q,q),C.bU,q)],k),C.y,C.aq,C.x),C.Z,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,l.a,q,q,new K.VH(p,a),new V.a8(20,15,20,15),q,q,q,q,q),C.Z,C.a3,5,q,C.m,q,q,C.bm)
 l=F.ba(a,!1).a
-return new T.ck(C.I,q,q,M.ac(q,M.oQ(q,C.i,T.d3(C.af,H.a([L.dm(T.bI(H.a([o,new T.ck(C.I,q,q,n,q),new T.bE(q,40,q,q),new T.aC(C.hg,t,q),new T.aC(C.hg,s,q),new T.bE(q,40,q,q),r],k),C.y,C.aq,C.x),!0),L.dm(new A.k1("Setting new password and loggin in!",C.a3,q),!1)],k),C.ae),q),q,q,q,q,q,q,q,q,q,l.a*0.3),q)}}
+return new T.ck(C.I,q,q,M.ac(q,M.oQ(q,C.i,T.d3(C.af,H.a([L.dm(T.bI(H.a([o,new T.ck(C.I,q,q,n,q),new T.bE(q,40,q,q),new T.aC(C.hg,t,q),new T.aC(C.hg,s,q),new T.bE(q,40,q,q),r],k),C.y,C.aq,C.x),!0),L.dm(new A.k1("Setting new password and logging in",C.a3,q),!1)],k),C.ae),q),q,q,q,q,q,q,q,q,q,l.a*0.3),q)}}
 K.VH.prototype={
 $0:function(){return this.a.a3y(this.b)},
 $S:1}
